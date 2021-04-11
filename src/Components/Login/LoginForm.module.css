@@ -1,0 +1,31 @@
+p {
+  font-size: 1.7rem;
+}
+
+.container {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 40px;
+}
+
+.img {
+  background-size: cover;
+}
+
+.content {
+  display: grid;
+  row-gap: 20px;
+  justify-content: start;
+  align-content: center;
+}
+
+.link {
+  display: block;
+  margin-top: 10px;
+}
+
+.register > * {
+  margin-bottom: 30px;
+}
+
